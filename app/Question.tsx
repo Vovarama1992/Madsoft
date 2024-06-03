@@ -97,7 +97,7 @@ export default function Question({ type, theme, options, length, pageNum }: Ques
       case 'Radio':
         return renderRadio();
       default:
-        return null;
+        return null;// здесь можно добавить новые типы вопросов
     }
   }
 
